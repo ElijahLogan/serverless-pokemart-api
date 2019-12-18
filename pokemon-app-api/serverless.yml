@@ -51,7 +51,7 @@ functions:
     handler: create.main
     events:
       - http:
-          path: notes
+          path: create
           method: post
           cors: true
           authorizer: aws_iam
@@ -62,7 +62,7 @@ functions:
     handler: list.main
     events:
       - http:
-          path: notes
+          path: list
           method: get
           cors: true
           authorizer: aws_iam
