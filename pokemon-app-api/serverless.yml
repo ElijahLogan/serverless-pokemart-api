@@ -23,6 +23,10 @@ provider:
   #environment:
   #  sampleEnvVar: ${env:SAMPLE_ENV_VAR}
   
+  
+  environment:
+    tableName: pokemon
+  
   iamRoleStatements:
     - Effect: Allow
       Action:
