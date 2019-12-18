@@ -20,7 +20,7 @@ export function main(event, context, callback) {
     Item: {
       userId: event.requestContext.identity.cognitoIdentityId,
       itemId: uuid.v1(),
-      item: data.itemt,
+      item: data.item,
       createdAt: Date.now()
     }
   };
